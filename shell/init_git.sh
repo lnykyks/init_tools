@@ -13,3 +13,5 @@ git push -u origin master //将主分支本地的内容推送到GitHub上的远�
 # pull from github
 git remote add origin <你github上仓库的url>
 git pull origin master
+
+git clone git@github.com:lnykyks/Logseq.git # for example
