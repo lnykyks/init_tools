@@ -1,0 +1,7 @@
+# tmux usage
+
+1. tmux new -s <name>
+2. tmux detach
+   1. ctrl B, d
+3. tmux attach -t <name/id>
+
