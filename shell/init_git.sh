@@ -7,7 +7,8 @@ git config --global -l # check info
 
 # init folder, then push
 git add .
-git commit -m "你想加入的备注"# push
+git init
+git remote add origin "the link"# push
 git push -u origin master //将主分支本地的内容推送到GitHub上的远程仓库上
 
 # pull from github
