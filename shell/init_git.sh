@@ -17,6 +17,7 @@ git remote add origin <你github上仓库的url>
 git pull origin master
 
 git clone git@github.com:lnykyks/Logseq.git # for example
+git clone --branch v0.2.1 <link> <target dir>
 
 # detach
 git remote remove origin # 或者直接删掉.git文件
