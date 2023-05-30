@@ -1,0 +1,1 @@
+set PATH=C: # then close the cmd and reopen, use "echo %PATH%" to make sure source done
