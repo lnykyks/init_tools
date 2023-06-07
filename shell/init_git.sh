@@ -15,7 +15,19 @@ git push -u origin master //将主分支本地的内容推送到GitHub上的远�
 # pull from github
 git remote add origin <你github上仓库的url>
 git pull origin branch_name # default = master
+git pull origin <远程分支名>:<本地分支名> # 远程指定分支 拉取到 本地指定分支上
+git pull origin <远程分支名>             # 远程指定分支 拉取到 本地当前分支上
+git pull # 与本地当前分支同名的远程分支 拉取到 本地当前分支上
 
+# push
+git push origin <本地分支名>:<远程分支名>
+git pull origin <远程分支名> # 本地当前分支 推送到 与本地当前分支同名的远程分支上
+git push # 同上，也是要先关联
+
+# 关联
+git push -u origin <本地分支名>
+
+# clone
 git clone git@github.com:lnykyks/Logseq.git # for example
 git clone --branch v0.2.1 <link> <target dir>
 
