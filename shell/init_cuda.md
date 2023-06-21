@@ -23,3 +23,13 @@
 2. 先安装dialog, whiptail, gcc, g++, gdb等依赖
 
 instruction: [link](https://blog.csdn.net/gaoyong_cs/article/details/107512988)
+
+```about env
+export PATH=/usr/local/cuda-11.0/bin${PATH:+:${PATH}}
+# export LD_LIBRARY_PATH=/usr/local/cuda-11.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export LD_LIBRARY_PATH="/usr/local/cuda-11.0/lib64:/home/ubuntu/.conda/envs/tc17py38/lib/python3.8/site-packages/torch/lib"
+export CUDA_HOME="/usr/local/cuda"
+export CPATH="/mnt/d/projects/CHORE-edited/external/cuda-samples-11.0/Common"
+export TORCH_CUDA_ARCH_LIST=6.1
+export CUDA_SAMPLES_INC=/mnt/d/projects/CHORE-edited/external/cuda-samples-11.0/Common/
+```
