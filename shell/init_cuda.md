@@ -18,3 +18,7 @@
    2. vs环境变量，比如cl.exe
 
 # install cuda on Linux
+
+instruction: [link](https://blog.csdn.net/gaoyong_cs/article/details/107512988)
+
+1. 用run_file文件，不要用dpkg
