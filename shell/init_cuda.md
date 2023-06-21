@@ -19,6 +19,7 @@
 
 # install cuda on Linux
 
-instruction: [link](https://blog.csdn.net/gaoyong_cs/article/details/107512988)
-
 1. 用run_file文件，不要用dpkg
+2. 先安装dialog, whiptail, gcc, g++, gdb等依赖
+
+instruction: [link](https://blog.csdn.net/gaoyong_cs/article/details/107512988)
